@@ -1,0 +1,7 @@
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\bin\Release\Lab_1.exe
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\bin\Release\Lab_1.pdb
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.Form1.resources
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.Properties.Resources.resources
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.csproj.GenerateResource.Cache
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.exe
+D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.pdb
