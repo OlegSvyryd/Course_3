@@ -20,5 +20,8 @@ public class Lab1 {
 
         System.out.println("Accumulated frequency: ");
         calculate.getAccumulatitedFrequency();
+
+        System.out.println("Frequencies: ");
+        calculate.getFrequencies();
     }
 }

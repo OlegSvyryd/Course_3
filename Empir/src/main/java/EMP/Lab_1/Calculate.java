@@ -10,12 +10,13 @@ public class Calculate {
 
     //variant + 10
     private static final int SIZE = 28;
+    private static final int MAX_VALUE = 5;
 
     private int[] array = new int[SIZE];
 
     protected void initializeArray(){
         for(int i = 0; i < SIZE; i++) {
-            array[i] = new Random().nextInt(5) + 1;
+            array[i] = new Random().nextInt(MAX_VALUE) + 1;
             System.out.print(array[i] + " ");
         }
     }
@@ -68,6 +69,25 @@ public class Calculate {
 
             if(array[i] != array[i - 1]) {
                 System.out.print(acumFreq + " ");
+            }
+        }
+    }
+
+    protected void getFrequencies(){
+        sortArrayByAsc();
+
+        float freq = 0;
+        for (int i = 0; i < SIZE; i++) {
+            freq++;
+
+            if(i == 0) { freq = 0; continue; }
+
+            if(i == (SIZE - 1))
+                System.out.format("%2.2f ", (freq + 1) / SIZE);
+
+            if(array[i] != array[i - 1]) {
+                System.out.format("%2.2f ",  freq / SIZE);
+                freq = 0;
             }
         }
     }
