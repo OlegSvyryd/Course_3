@@ -5,3 +5,5 @@ D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.Properties.Resour
 D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.csproj.GenerateResource.Cache
 D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.exe
 D:\AStudying\Processing\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.pdb
+D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.exe
+D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Release\Lab_1.pdb
