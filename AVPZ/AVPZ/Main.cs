@@ -41,5 +41,10 @@ namespace AVPZ
         {
             demo(new Lab3_view());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            demo(new Lab4_view());
+        }
     }
 }

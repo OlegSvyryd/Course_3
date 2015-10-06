@@ -9,3 +9,15 @@ C:\Users\Oleg Svyryd\Documents\Visual Studio 2010\Projects\AVPZ\AVPZ\obj\x86\Deb
 C:\Users\Oleg Svyryd\Documents\Visual Studio 2010\Projects\AVPZ\AVPZ\obj\x86\Debug\AVPZ.csprojResolveAssemblyReference.cache
 C:\Users\Oleg Svyryd\Documents\Visual Studio 2010\Projects\AVPZ\AVPZ\bin\Debug\AVPZ.pdb
 C:\Users\Oleg Svyryd\Documents\Visual Studio 2010\Projects\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab3_view.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.exe
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.pdb
+D:\GIT\Training\Course_3\AVPZ\AVPZ\bin\Debug\AVPZ.exe
+D:\GIT\Training\Course_3\AVPZ\AVPZ\bin\Debug\AVPZ.pdb
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.csprojResolveAssemblyReference.cache
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab1_view.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab2_view.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab3_view.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Main.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Properties.Resources.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.csproj.GenerateResource.Cache
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab4_view.resources
