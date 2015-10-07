@@ -1,9 +1,0 @@
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\bin\Debug\Lab_1.exe
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\bin\Debug\Lab_1.pdb
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\Lab_1.Form1.resources
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\Lab_1.Main.resources
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\Lab_1.Properties.Resources.resources
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\AVPZ.csproj.GenerateResource.Cache
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\Lab_1.exe
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\Lab_1.pdb
-D:\GIT\Training\Course_3\AVPZ\Lab_1\Lab_1\obj\x86\Debug\AVPZ.csprojResolveAssemblyReference.cache
