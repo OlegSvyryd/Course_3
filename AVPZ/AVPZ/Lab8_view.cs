@@ -17,12 +17,18 @@ namespace AVPZ
         }
 
         private const float ALPHA = 0.45f;
+        private float[] b = { 2.46f, 7.38f, 11.6f };
+        private float[] c = { 1.6f, 0.35f, 6.71f, 9.35f };
 
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                richTextBox1.Text = getRes1();
+                richTextBox1.Text += "b[j] = " + b[0] + ", " + b[1] + ", " + b[2];
+                richTextBox1.Text += "\nc[m] = " + c[0] + ", " + c[1] + ", " + c[2] + ", " + c[3];
+                richTextBox1.Text += "\n" + getRes1();
+                richTextBox1.Text += "\n-----------------------";
+                richTextBox1.Text += "\n" + getRes2();
             }
             catch (NullReferenceException e1)
             {
@@ -34,59 +40,46 @@ namespace AVPZ
             }
         }
 
-        private string getRes1()
+        private float getRes1()
         {
-            string output = null;
-            float[][] fi = new float[3][];
-            fi[0] = new float[4];
-            fi[1] = new float[4];
-            fi[2] = new float[4];
-            float[] b = new float[3];
-            float[] c = new float[4];
+            float f = 0;
 
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < b.Length; j++)
             {
-                b[j] = j+1;
-            }
-
-            Console.WriteLine();
-
-            for (int m = 0; m < 4; m++)
-            {
-                c[m] = m+1;
-            }
-
-            for (int j = 0; j < 3; j++)
-            {
-                for (int m = 0; m < 4; m++)
+                for (int m = 0; m < c.Length; m++)
                 {
-                    fi[j][m] = (float)sqrt(b[j] * sqrt(1 + ((c[m] * ALPHA) / (log(b[j])) )));
-                    output += fi[j][m] + " \n";
+                    f = (float)sqrt(b[j] * sqrt(1 + ((c[m] * ALPHA) / (log(b[j])))));
                 }
             }
-            return output;
+            return f;
         }
 
-        private string getRes11()
+        private float getRes2()
         {
-            string output = null;
-            float[][] fi = new float[3][];
-            fi[0] = new float[4];
-            fi[1] = new float[4];
-            fi[2] = new float[4];
-            float[] b = { 2.46f, 7.38f, 11.6f };
-            float[] c = { 1.6f, 0.35f, 6.71f, 9.35f };
+            float f = 0;
+            int count = 0;
 
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < b.Length; j++)
             {
-                /*
+                if((count++) == 0)
                 {
-                    fi[j][m] = (float)sqrt(b[j] * sqrt(1 + ((c[m] * ALPHA) / (log(b[j])))));
-                    output += fi[j][m] + " \n";
+                    f = (float)sqrt(b[j] * sqrt(1 + ((c[count] * ALPHA) / (log(b[j])))));
                 }
-                 */
+                if ((count++) == 1)
+                {
+                    f = (float)sqrt(b[j] * sqrt(1 + ((c[count] * ALPHA) / (log(b[j])))));
+                }
+                if ((count++) == 2)
+                {
+                    f = (float)sqrt(b[j] * sqrt(1 + ((c[count] * ALPHA) / (log(b[j])))));
+                }
+                if ((count) == 3)
+                {
+                    f = (float)sqrt(b[j] * sqrt(1 + ((c[count] * ALPHA) / (log(b[j])))));
+                    count = 0;
+                }
             }
-            return output;
+            return f;
         }
 
         private void button2_Click(object sender, EventArgs e)
