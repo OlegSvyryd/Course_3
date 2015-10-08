@@ -76,6 +76,12 @@
     <Compile Include="Lab5_view.Designer.cs">
       <DependentUpon>Lab5_view.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab6_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab6_view.Designer.cs">
+      <DependentUpon>Lab6_view.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab5_view.resx">
       <DependentUpon>Lab5_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab6_view.resx">
+      <DependentUpon>Lab6_view.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
