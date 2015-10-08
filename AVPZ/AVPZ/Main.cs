@@ -61,5 +61,15 @@ namespace AVPZ
         {
             demo(new Lab7_view());
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            demo(new Lab8_view());//not working
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            demo(new Lab9_view());
+        }
     }
 }

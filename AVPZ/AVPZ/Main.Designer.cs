@@ -43,6 +43,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -201,11 +205,57 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(12, 290);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(237, 21);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Лабораторна 8: Вкладені цикли";
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button8.Location = new System.Drawing.Point(477, 286);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(99, 29);
+            this.button8.TabIndex = 15;
+            this.button8.Text = "Демо";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(12, 325);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(415, 21);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Лабораторна 9: Двовимірні масиви. Сортування масивів\r\n";
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button9.Location = new System.Drawing.Point(477, 321);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(99, 29);
+            this.button9.TabIndex = 17;
+            this.button9.Text = "Демо";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 418);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label7);
@@ -246,6 +296,10 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button9;
     }
 }
 
