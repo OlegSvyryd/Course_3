@@ -27,3 +27,4 @@ D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab7_view.resources
 D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab8_view.resources
 D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab9_view.resources
 D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab10_view.resources
+D:\GIT\Training\Course_3\AVPZ\AVPZ\obj\x86\Debug\AVPZ.Lab11_view.resources
