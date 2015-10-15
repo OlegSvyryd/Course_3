@@ -49,7 +49,6 @@ namespace AVPZ
                 if ((farr[i] < 0) && (Math.Abs(farr[i]) > a))
                 {
                     sum += Math.Abs(farr[i]);
-                    Console.WriteLine("here: " + sum);
                 }
             }
             return sum;

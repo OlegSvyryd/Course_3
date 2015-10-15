@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab10_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab10_view.Designer.cs">
+      <DependentUpon>Lab10_view.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab1_view.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <Compile Include="Sources\Lab5\Lab5.cs" />
     <Compile Include="Sources\Lab5\Function.cs" />
     <Compile Include="Sources\Lab5\FunctionImpl.cs" />
+    <EmbeddedResource Include="Lab10_view.resx">
+      <DependentUpon>Lab10_view.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab1_view.resx">
       <DependentUpon>Lab1_view.cs</DependentUpon>
     </EmbeddedResource>
