@@ -53,6 +53,8 @@
             this.button11 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -313,11 +315,33 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.Location = new System.Drawing.Point(12, 460);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(415, 21);
+            this.label14.TabIndex = 26;
+            this.label14.Text = "Лабораторна 13: Файли\r\n\r\n\r\n\r\n";
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button13.Location = new System.Drawing.Point(477, 456);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(99, 29);
+            this.button13.TabIndex = 25;
+            this.button13.Text = "Демо";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(588, 465);
+            this.ClientSize = new System.Drawing.Size(588, 496);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.label12);
@@ -378,6 +402,8 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button button13;
     }
 }
 
