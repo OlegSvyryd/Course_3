@@ -1,11 +1,14 @@
+/*
 package EMP.Lab_7;
 
 import java.io.*;
 import java.util.logging.Logger;
 
+*/
 /**
  * Created by Oleg Svyryd on 08.11.2015.
- */
+ *//*
+
 public class FileUtil {
     private static final Logger LOG = Logger.getAnonymousLogger();
 
@@ -67,4 +70,4 @@ public class FileUtil {
     private static int getRow(String strLine) {
         return Integer.parseInt(strLine);
     }
-}
+}*/

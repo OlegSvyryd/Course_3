@@ -1,10 +1,14 @@
+/*
 package EMP.Lab_7;
 
 import java.util.Arrays;
+import java.util.Random;
 
+*/
 /**
  * Created by Oleg Svyryd on 08.11.2015.
- */
+ *//*
+
 public class Main {
 
     private static int[] data = { 2, 1, 2, 5, 2, 2, 2, 2, 4, 2,
@@ -14,11 +18,13 @@ public class Main {
             2, 6, 2, 5, 2, 7, 2, 2
     };
 
-    /**
+    */
+/**
      * Return average of array
      * @param array Init array of digits
      * @return average
-     */
+     *//*
+
     protected static float getAverage(int[] array) {
         float sum = 0;
         for(int i : array) {
@@ -27,28 +33,34 @@ public class Main {
         return sum / array.length;
     }
 
-    /**
+    */
+/**
      * Calculate mean square
      * @param array Array of numbers
      * @return Mean square of array
-     */
+     *//*
+
     protected static float getMeanSquare(int[] array) {
         return (float) Math.sqrt(Main.getAverage(array));
     }
 
-    /**
+    */
+/**
      * Get variation row
      * @param array
-     */
+     *//*
+
     protected static void sortArrayByAsc(int[] array){
         Arrays.sort(array);
     }
 
-    /**
+    */
+/**
      * Calculate P
      * @param nRozr N Rozr
      * @return P
-     */
+     *//*
+
     private static float getP(float nRozr) {
         float n1 = (float) (2.0f * Math.pow(48, -0.5) + 0.6f);
         float n3 = (float) (3.0f * Math.pow(48, -0.5) + 1.15f);
@@ -109,3 +121,4 @@ public class Main {
         }
     }
 }
+*/
